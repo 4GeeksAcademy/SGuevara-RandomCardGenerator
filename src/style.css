@@ -1,1 +1,46 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+
+
+.card{
+    background: white;
+    display: flex;
+    margin: auto;
+    height: 400px;
+    width: 250px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.paloUp, .paloDown{
+    position: absolute;
+    font-size: 60px;
+}
+
+
+.paloUp{
+    top: 20px;
+    left: 20px;
+
+}
+
+.paloDown{
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(180deg);
+}
+
+.number{
+    font-size: 120px;
+    font-weight: bold;
+}
